@@ -38,8 +38,14 @@ public class ProcessarService {
 	}
 	
 	private TrajetoModel convert( String msg ) throws Exception {
+		ObjectMapper mapper = new ObjectMapper();
 		TrajetoTo trajetoTo = mapper.readValue(msg, TrajetoTo.class);
 	
+		if( trajetoTo.getDtCriacao() != null && trajetoTo.getDtCriacao().contains("T") ) {
+			trajetoTo.setDtCriacao( trajetoTo.getDtCriacao().replace("T", " ") );
+		}
+		
 		return new TrajetoModel(trajetoTo);
 	}
+	
 }
