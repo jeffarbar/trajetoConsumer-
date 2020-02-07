@@ -9,6 +9,7 @@
 /home/jefferson/trabalho/pessoal/rastreamento/backend/trajetoConsumer/src/main/java/br/com/send/consumer/mq/model/TrajetoModel.java
 /home/jefferson/trabalho/pessoal/rastreamento/backend/trajetoConsumer/src/main/java/br/com/send/consumer/mq/model/PosicaoAtualPontoMonitoradoModel.java
 /home/jefferson/trabalho/pessoal/rastreamento/backend/trajetoConsumer/src/main/java/br/com/send/consumer/mq/repository/TrajetoRepository.java
+/home/jefferson/trabalho/pessoal/rastreamento/backend/trajetoConsumer/src/main/java/br/com/send/consumer/mq/to/EnderecoTo.java
 /home/jefferson/trabalho/pessoal/rastreamento/backend/trajetoConsumer/src/main/java/br/com/send/consumer/mq/controller/Controller.java
 /home/jefferson/trabalho/pessoal/rastreamento/backend/trajetoConsumer/src/main/java/br/com/send/consumer/mq/service/ConsumerService.java
 /home/jefferson/trabalho/pessoal/rastreamento/backend/trajetoConsumer/src/main/java/br/com/send/consumer/mq/AppTrajetoConsumer.java

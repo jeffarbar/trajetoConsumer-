@@ -8,12 +8,14 @@ import org.springframework.stereotype.Service;
 import br.com.send.consumer.mq.model.PosicaoAtualPontoMonitoradoModel;
 import br.com.send.consumer.mq.model.TrajetoModel;
 import br.com.send.consumer.mq.repository.PosicaoAtualPontoMonitoradoRepository;
-import br.com.send.consumer.mq.util.DataUtil;
+
+
 
 @Service
 public class PosicaoAtualPontoMonitoradoService {
 
 	private static final Logger logger = LogManager.getLogger(PosicaoAtualPontoMonitoradoService.class);
+	
 	
 	@Autowired
 	private PosicaoAtualPontoMonitoradoRepository posicaoAtualPontoMonitoradoRepository;
@@ -38,4 +40,8 @@ public class PosicaoAtualPontoMonitoradoService {
 			throw e;
 		}
 	} 
+	
+	
+	
+		
 }
